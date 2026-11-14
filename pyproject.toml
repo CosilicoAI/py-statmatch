@@ -10,7 +10,7 @@ authors = [
     {name = "PolicyEngine", email = "hello@policyengine.org"},
 ]
 readme = "README.md"
-requires-python = ">=3.10"
+requires-python = ">=3.11"
 license = {text = "MIT"}
 keywords = ["statistical matching", "data fusion", "hot deck imputation", "nearest neighbor"]
 classifiers = [
@@ -19,7 +19,6 @@ classifiers = [
     "License :: OSI Approved :: MIT License",
     "Operating System :: OS Independent",
     "Programming Language :: Python :: 3",
-    "Programming Language :: Python :: 3.10",
     "Programming Language :: Python :: 3.11",
     "Programming Language :: Python :: 3.12",
     "Programming Language :: Python :: 3.13",
@@ -62,7 +61,7 @@ documentation = [
 "Source Code" = "https://github.com/PolicyEngine/py-statmatch"
 
 [tool.mypy]
-python_version = "3.9"
+python_version = "3.11"
 warn_return_any = true
 warn_unused_configs = true
 disallow_untyped_defs = true
